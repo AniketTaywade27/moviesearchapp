@@ -8,7 +8,6 @@ import "./App.css"
 
 function App() {
 
-  const url ="http://www.omdbapi.com/?apikey=67860f91"
   return (
    <BrowserRouter>
    <NavBar/>

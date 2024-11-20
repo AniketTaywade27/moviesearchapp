@@ -11,7 +11,7 @@ const Modal = () => {
   const getSingleMovie = async () => {
     try {
       const data = await axios.get(
-        `http://www.omdbapi.com/?apikey=67860f91&i=${id}`
+        `https://www.omdbapi.com/?apikey=67860f91&i=${id}`
       );
 
       console.log(data?.data);
@@ -33,7 +33,7 @@ const Modal = () => {
 
   return (
     <div className="container-fluid">
-        
+
       <div className="row px-4">
         <div className="col-4">
           <div>
